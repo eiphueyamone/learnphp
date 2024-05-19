@@ -39,49 +39,4 @@ var_dump($j);
 $k = "Hello";
 var_dump(is_numeric($k));
 echo"<br>";
-
-// casting
-// cast to integer
-$l = 23465.768;
-$m = (int)$l;
-echo $m;
-$x = "23465.768";
-$i = (int)$x;
-echo $i;
-echo "<br>";
-$a = 5;  
-$b = 2.44;    
-$c = "hello"; 
-$d = true;   
-$e = NULL;    
-$g = "hello 35"; 
-$a = (int) $a;
-$b = (int) $b;
-$c = (int) $c;
-$d = (int) $d;
-$e = (int) $e;
-$g = (int) $g;
-var_dump($a);
-var_dump($b);
-var_dump($c);
-var_dump($d);
-var_dump($e);
-var_dump($g);
-// cast to string
-$a = 5;  
-$b = 2.44;    
-$c = "hello"; 
-$d = true;   
-$e = NULL;    
-
-$a = (string) $a;
-$b = (string) $b;
-$c = (string) $c;
-$d = (string) $d;
-$e = (string) $e;
-var_dump($a);
-var_dump($b);
-var_dump($c);
-var_dump($d);
-var_dump($e);
 ?>
