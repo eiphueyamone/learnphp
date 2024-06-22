@@ -9,5 +9,10 @@ require "construc.php";
 require "inheritance.php";
 require "abstraction.php";
 require "encapsulation.php";
+require "pdoOOp.php";
+require "pdo.php";
+require "exception.php";
+require "crud.php";
+$db->dbConnect();
 $re -> firedNoddle();
 ?>
